@@ -817,7 +817,7 @@ section .container {
 
 .portfolio .portfolio-wrap::before {
 	content: '';
-	background: rgba(0, 0, 0, 0.6);
+	background-size: cover;
 	position: absolute;
 	left: 30px;
 	right: 30px;
@@ -826,6 +826,22 @@ section .container {
 	transition: all ease-in-out 0.3s;
 	z-index: 2;
 	opacity: 0;
+}
+
+.portfolio .portfolio-wrap.apollo::before {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio .portfolio-wrap.ares::before {
+	background-image: url('../img/portfolio/screenshot-ares.jpg');
+}
+
+.portfolio .portfolio-wrap.network::before {
+	background-image: url('../img/portfolio/screenshot-network.jpg');
+}
+
+.portfolio .portfolio-wrap.auctions::before {
+	background-image: url('../img/portfolio/screenshot-auctions.jpg');
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
