@@ -1016,6 +1016,8 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
+	gap: 20px;
+	display: flex;
 	color: #444444;
 	padding: 20px;
 	width: 100%;
@@ -1036,10 +1038,10 @@ section .container {
 }
 
 .contact .info-box h3 {
+	margin-bottom: 4px;
 	font-size: 20px;
 	color: rgba(255, 255, 255, 0.5);
 	font-weight: 700;
-	margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
@@ -1047,12 +1049,12 @@ section .container {
 	color: #fff;
 	line-height: 24px;
 	font-size: 14px;
-	margin: 0 0 0 68px;
+	margin: 0;
 }
 
 .contact .info-box .social-links {
-	margin: 5px 0 0 68px;
 	display: flex;
+	margin-top: 8px;
 }
 
 .contact .info-box .social-links a {
