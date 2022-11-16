@@ -829,7 +829,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap.apollo::before {
-	background: rgba(0, 0, 0, 0.6);
+	background-image: url('../img/portfolio/screenshot-apollo.jpg');
 }
 
 .portfolio .portfolio-wrap.ares::before {
